@@ -3,6 +3,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <sys/stat.h>
+#include <unistd.h>
 #include "hacking.h"
 
 void usage(char *prog_name, char *filename) {

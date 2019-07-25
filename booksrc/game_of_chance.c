@@ -4,6 +4,7 @@
 #include <sys/stat.h>
 #include <time.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include "hacking.h"
 
 #define DATAFILE "/var/chance.data" // File to store user data

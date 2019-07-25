@@ -19,4 +19,3 @@ int main() { // the main function, with it's own context
 		function(); // call the function
 	}
 }
-	

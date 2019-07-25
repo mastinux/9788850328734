@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int global_var;
 int global_initialized_var = 5;
@@ -32,4 +33,4 @@ int main() {
    // These variables are in the stack segment
    printf("stack_var is at address 0x%08x\n", &stack_var);
    function();
-}  
+}

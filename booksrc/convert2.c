@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 void usage(char *program_name) {
    printf("Usage: %s <message> <# of times to repeat>\n", program_name);
